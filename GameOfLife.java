@@ -49,6 +49,7 @@ public class GameOfLife {
 			show(board);
 			board = evolve(board);
 		}
+		
 	}
 	
 	// Reads the initial board configuration from the file whose name is fileName, uses the data
